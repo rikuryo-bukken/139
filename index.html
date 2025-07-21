@@ -14,22 +14,35 @@
     <div id="main_contents">
         <div id="contents">
             <h1>139期</h1>
-            <ul>
-                <li>
-                    <details name="works">
-                        <summary class="toggleButton">なかよしこよし</summary>
+            <div id="menu_container">
+                <div>
+                    <div id="menu">
                         <div>
-                            <section>
-                                <h2>なかよしこよし</h2>
-                                <p>なつやすみ前のある日、悩める少女「あの」はたった1匹の虫をきっかけに何とも不思議な経験をする。それは彼女にとって幸運か、はたまた不運か。全てはあなたの選択次第。マルチエンディングのノベルゲームです。</p>
-                            </section>
-                            <a class="to_nextPage" href="./novel_game/">
-                                <p>Go to Page</p>
-                            </a>
+                            <input type="radio" name="pages" id="novel_game" value="novel_game" aria-controls="novel_game_content" checked>
+                            <label for="novel_game">なかよしこよし</label>
+                            <div id="novel_game_content">
+                                <section>
+                                    <h2>なかよしこよし</h2>
+                                    <p>なつやすみ前のある日、悩める少女「あの」はたった1匹の虫をきっかけに何とも不思議な経験をする。それは彼女にとって幸運か、はたまた不運か。全てはあなたの選択次第。マルチエンディングのノベルゲームです。</p>
+                                    <a class="to_nextPage" href="./novel_game/">
+                                        <p>Go to Page</p>
+                                    </a>
+                                    <img src="./images/novel_game.jpg" alt="">
+                                </section>
+                            </div>
                         </div>
-                    </details>
-                </li>
-            </ul>
+                        <div>
+                            <input type="radio" name="pages" id="other" value="other" disabled aria-hidden="true">
+                            <label for="other">以上</label>
+                            <div>
+                                <section>
+                                    <p>ラジオボタンから選択してください。</p>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div id="sub_contents">
